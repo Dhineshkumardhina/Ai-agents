@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-base: #020617;
+    --color-bg-surface: #0f172a;
+    --color-border-subtle: #1e293b;
+    --color-accent: #3b82f6;
+  }
+
+  body {
+    background-color: var(--color-bg-base);
+    color: #f8fafc;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
