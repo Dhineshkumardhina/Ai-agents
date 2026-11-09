@@ -30,6 +30,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedIndexedAccess": true,
 
+    /* Types */
+    "types": ["vitest/globals", "@testing-library/jest-dom/vitest"],
+
     /* Path aliases */
     "baseUrl": ".",
     "paths": {
@@ -39,4 +42,3 @@
   "include": ["src", "e2e"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
-
